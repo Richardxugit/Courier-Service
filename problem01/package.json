@@ -1,13 +1,15 @@
 {
+  "type": "module",
   "name": "courier-service",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "start": "node index.js"
   },
   "license": "ISC",
   "dependencies": {
+    "jest": "^28.1.3",
     "prompt-sync": "^4.2.0"
   }
 }
