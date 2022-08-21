@@ -1,8 +1,8 @@
 class Order {
   constructor(base, weight, distance) {
-    this.base = Number(base);
-    this.weight = Number(weight);
-    this.distance = Number(distance);
+    this.base = base;
+    this.weight = weight;
+    this.distance = distance;
   }
 
   calculateCost() {

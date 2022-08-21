@@ -1,8 +1,8 @@
 class Offer {
   constructor(cost, weight, distance) {
     this.cost = cost;
-    this.weight = Number(weight);
-    this.distance = Number(distance);
+    this.weight = weight;
+    this.distance = distance;
   }
 
   inRange(n, nStart, nEnd) {
