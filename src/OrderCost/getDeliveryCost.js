@@ -1,4 +1,4 @@
-import Order from "../src/class/Order.js";
+import Order from "../class/Order.js";
 
 const getDeliveryCost = (base, weight, distance) => {
     const order = new Order(base, weight, distance);
