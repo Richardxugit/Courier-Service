@@ -31,14 +31,13 @@ const getInputs = () => {
   );
   const noOfVehicles = Number(deliveryInfo.split(" ")[0]);
   const maxSpeed = Number(deliveryInfo.split(" ")[1]);
-  const maxWight = Number(deliveryInfo.split(" ")[2]);
+  const maxWeight = Number(deliveryInfo.split(" ")[2]);
 
   const ordersWithDeliveryInfo = {
     ...ordersAndBaseCost,
-    deliveryInfo: { noOfVehicles, maxSpeed, maxWight },
+    deliveryInfo: { noOfVehicles, maxSpeed, maxWeight },
   };
-  console.log(ordersWithDeliveryInfo);
-  return ordersAndBaseCost;
+  return ordersWithDeliveryInfo;
 };
 
 export default getInputs;
