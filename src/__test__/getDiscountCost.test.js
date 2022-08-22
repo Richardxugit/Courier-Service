@@ -1,4 +1,4 @@
-import getDiscount from "../getDiscount.js";
+import getDiscount from "../OrderCost/getDiscount.js";
 
 const TEST_DELIVERY_COST = 700;
 const TEST_WEIGHT = 10;

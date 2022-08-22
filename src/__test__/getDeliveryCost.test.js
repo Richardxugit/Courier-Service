@@ -1,6 +1,4 @@
-import {jest} from '@jest/globals'
-
-import getDeliveryCost from "../getDeliveryCost.js";
+import getDeliveryCost from "../OrderCost/getDeliveryCost.js";
 
 const TEST_BASE_DELIVERY_COST = 100;
 const TEST_WEIGHT = 5;
